@@ -1,13 +1,13 @@
 #!/bin/bash
-git clone https://github.com/SusrithaMunukutla/Sensor-app.git /application
+git clone https://github.com/samhitha30/ionic-app.git /application
 cd /application
 unzip sensor.zip
-cp -r /application/sensor/platforms/android/build/outputs/apk /application
-git remote set-url origin https://SusrithaMunukutla:welcome123@github.com/SusrithaMunukutla/Sensor-app.git
+cp -r /application/sensor/platforms/android/build/outputs/apk/android-debug.apk /application
+git remote set-url origin https://samhitha30:github123@github.com/samhitha30/ionic-app.git
 git init
 git add .
-git config --global user.email "saim@virtusa.com"
-git config --global user.name "SusrithaMunukutla"
+git config --global user.email "samhitha225@gmail.com"
+git config --global user.name "samhitha30"
 git commit -m "First commit"
 git remote -v
 git push origin master
