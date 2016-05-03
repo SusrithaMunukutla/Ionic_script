@@ -7,7 +7,7 @@ git remote set-url origin https://SusrithaMunukutla:welcome123@github.com/Susrit
 git init
 git add apk
 git config --global user.email "saim@virtusa.com"
-git config --global user.nsme "SusrithaMunukutla"
+git config --global user.name "SusrithaMunukutla"
 git commit -m "First commit"
 git remote -v
 git push origin master
